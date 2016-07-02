@@ -6,8 +6,11 @@
     <h1>Hello</h1>
     <script>
         var name = prompt('Как ваше имя?');
-        var name2 = confirm('Вас действительно зовут ' + name + '?');
-        alert (name2);
+        if(confirm('Вас действительно зовут ' + name + '?')){
+            alert('Добро пожаловать')
+        }else {
+            alert('Пшол вон')
+        };
     </script>
     <p>okey</p>
 </head>
